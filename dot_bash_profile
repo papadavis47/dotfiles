@@ -1,0 +1,31 @@
+export PATH=~/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/cuda/bin
+export PATH="$HOME/scripts:$PATH"
+# Moved these from my .bashrc file on December 21, 2020
+export PATH="/opt:$PATH"
+export PATH="$HOME/my_bash_scripts:$PATH"
+# The following is for python scripts - as of 2025
+export PATH="$HOME/pythonscripts:$PATH"
+# The following was finally added October 2024 - when I realized it was missing from path
+export PATH="$HOME/.local/bin:$PATH"
+# The following is for snaps
+export PATH="/snap/bin:$PATH"
+
+# The following is for Lua
+export PATH="$HOME/.luarocks/bin:$PATH"
+
+# The following is for Go
+export GOROOT=/usr/local/go
+export GOPATH="$HOME/go"
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export PATH="$HOME/go/bin":$PATH
+
+. "$HOME/.cargo/env"
+
+. "$HOME/.atuin/bin/env"
+
+if [ -f ~/.bashrc ]; then
+   source ~/.bashrc
+fi
+
+
+export PATH="$PATH:/home/papa/.modular/bin"

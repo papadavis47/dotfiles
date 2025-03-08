@@ -1,4 +1,6 @@
  " Maintained and nurtured with 😍 for my .vimrc
+ 
+ " vim: filetype=vim
 
 " -----------------------------------------------------------------"
 "                   The VUNDLE STUFF

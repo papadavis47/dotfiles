@@ -197,7 +197,7 @@ set incsearch
 set hlsearch
 
 " Setting my local leader below.
-let maplocalleader="\\"
+let maplocalleader=" "
 
 " Note, this must be nmap, not nnoremap
 nmap <leader>gr "*gr
@@ -369,12 +369,12 @@ let g:palenight_terminal_italics=1
 " colorscheme dracula_pro_van_helsing
 " colorscheme github
 " colorscheme pink-moon
-" colorscheme OceanicNext
+colorscheme OceanicNext
 " colorscheme srcery
 " colorscheme purify
 " colorscheme snazzy
 " colorscheme everblush
-colorscheme palenight
+" colorscheme palenight
 " colorscheme dogrun
 
 "Comment and uncomment as needed

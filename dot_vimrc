@@ -364,17 +364,13 @@ let g:palenight_terminal_italics=1
 " -----------Favorite Colorschemes-----------------"
 " colorscheme dracula_pro
 " colorscheme falcon
-" colorscheme summerfruit256
-" colorscheme simpleandfriendly
-" colorscheme dracula_pro_van_helsing
-" colorscheme github
 " colorscheme pink-moon
-colorscheme OceanicNext
+" colorscheme OceanicNext
 " colorscheme srcery
 " colorscheme purify
 " colorscheme snazzy
 " colorscheme everblush
-" colorscheme palenight
+colorscheme palenight
 " colorscheme dogrun
 
 "Comment and uncomment as needed

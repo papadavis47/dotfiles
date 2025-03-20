@@ -19,6 +19,9 @@ export GOPATH="$HOME/go"
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PATH="$HOME/go/bin":$PATH
 
+# Moved this above with the other paths on March 16, 2025 - will move back to last line if need be
+export PATH="$PATH:/home/papa/.modular/bin"
+
 . "$HOME/.cargo/env"
 
 . "$HOME/.atuin/bin/env"
@@ -28,4 +31,3 @@ if [ -f ~/.bashrc ]; then
 fi
 
 
-export PATH="$PATH:/home/papa/.modular/bin"

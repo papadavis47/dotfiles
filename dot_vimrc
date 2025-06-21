@@ -280,10 +280,10 @@ nnoremap <leader>w :wq<cr>
 nnoremap <leader>a :qa<cr>
 
 " Quit already saved document
-nnoremap <leader>e :q<cr>
+" nnoremap <leader>e :q<cr>
 
 " Quit - don't save changes
-nnoremap<leader>q :q!<cr>
+" nnoremap<leader>q :q!<cr>
 " Does not work on VS Code - yet
 
 " Get rid of highlighting
@@ -296,7 +296,7 @@ nnoremap <leader>v :Vex<cr>
 nnoremap<leader>o <C-w>T
 
 " Quick save
-nnoremap <leader>s :w<cr>
+" nnoremap <leader>s :w<cr>
 
 " Open a vertical terminal in vim
 nnoremap <leader>t :vert ter<cr>
@@ -415,6 +415,7 @@ endif
 if has('syntax') && has('eval')
   packadd! matchit
 endif
+
 
 "The following is all for the markdown preview.
 let g:instant_markdown_autostart = 0

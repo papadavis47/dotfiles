@@ -10,8 +10,19 @@ export PATH="$HOME/.local/bin:$PATH"
 # The following is for snaps
 export PATH="/snap/bin:$PATH"
 
+# The following is for helpers
+export PATH="$HOME/helpers:$PATH"
+
+# The following is for apps I am working on for the command line
+export PATH="$HOME/experimental_apps:$PATH"
+
 # The following is for Lua
 export PATH="$HOME/.luarocks/bin:$PATH"
+
+# For fly.io
+export FLYCTL_INSTALL="/home/papa/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
 
 # The following is for Go
 export GOROOT=/usr/local/go

@@ -10,17 +10,19 @@ alias hello='echo "Hello World!"'
 alias upgrade='sudo apt update && sudo apt upgrade'
 alias psql="sudo -u postgres psql"
 alias pgserver="sudo -u postgres service postgresql start"
-alias md="mkdir $1"
-alias codei="code-insiders $1"
-alias vimrc="vim ~/.vimrc"
-alias neolua="vim ~/.config/nvim/"
-alias bashrc="vim ~/.bashrc"
-alias newalias="vim ~/.bash_aliases"
+alias md="mkdir"
+alias vimrc="nvim ~/.vimrc"
+alias neolua="nvim ~/.config/nvim/"
+alias bashrc="nvim ~/.bashrc"
+alias newalias="nvim ~/.bash_aliases"
 alias bsource="source ~/.bashrc"
 alias clock="tty-clock -cs -C 1 -S"
 alias hackme="sudo openvpn ~/tryhackme/papadavis47.ovpn"
 alias sqlitestudio="/opt/SQLiteStudio/sqlitestudio&"
 alias t="tree"
+
+# php
+alias runphp="php -S localhost:8000"
 
 # Go
 alias got="go test"
@@ -30,9 +32,7 @@ alias python=python3
 
 # pnpm
 alias pn=pnpm
-
-# Tauri
-alias ytd="yarn tauri dev"
+alias pnd="pnpm run dev"
 
 # Bun
 alias bd="bun dev"
@@ -40,30 +40,25 @@ alias bd="bun dev"
 # pnpm
 alias pd="pnpm run dev"
 
-# yarn
-alias yd="yarn dev"
-
 # For backup
 alias bkupcode="cp -i ~/.config/Code/User/keybindings.json ~/.config/Code/User/settings.json ~/pd47dotfiles/vscode/"
 alias bkupprofile="cp -i ~/.bash_profile ~/pd47dotfiles/"
-
 
 # Git aliases
 alias gst="git status"
 alias ga="git add ."
 alias gl="git log"
-alias gcm="git commit -m $1"
+alias gcm="git commit -m"
 alias gitp="git push"
 
-
 # Tmux Aliases
-alias tmuxn="tmux new-ses -s $1"
+alias tmuxn="tmux new-ses -s"
 
 # Personal Folder Navigation
 alias dotfiles="cd ~/pd47dotfiles; ls -la"
 
 # Script Helpers
-alias execute="chmod +x $1"
+alias execute="chmod +x"
 
 # Rust version of cat
 alias cat="batcat"

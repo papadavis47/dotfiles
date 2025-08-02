@@ -120,7 +120,7 @@ fi
 
 # export EDITOR="code -w"
 # I may have to adjust this to 'nvim -f' if I use chezmoi. I am not sure yet.
-export EDITOR="vim"
+export EDITOR="nvim"
 export MYVIMRC=~/.vimrc
 
 export TERM="xterm-256color"

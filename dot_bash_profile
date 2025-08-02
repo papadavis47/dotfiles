@@ -42,3 +42,6 @@ if [ -f ~/.bashrc ]; then
 fi
 
 
+
+# Added by `rbenv init` on Wed Jul 16 07:30:52 PM PDT 2025
+eval "$(~/.rbenv/bin/rbenv init - --no-rehash bash)"
